@@ -6,9 +6,9 @@ for i in range (0,n):
 print('the list is:', list)
 
 for i in range(0,n):
-    for j in range (i+1,n):
-        if list[i]> list[j]:
+    for j in range(i+1,n):
+       if list[i]> list[i+1]:
             small= list[i]
-            list[i]= list[j]
-            list[j]= small
+            list[i]= list[i+1]
+            list[i+1]= small
 print('the assending order of series is:', list)
